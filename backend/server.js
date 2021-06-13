@@ -1,8 +1,13 @@
-import express from "express";
-import dotenv from "dotenv";
-import connectDB from "./config/db.js";
-import colors from "colors";
-import products from "./data/products.js";
+// import products from "./data/products.js";
+// import express from "express";
+// import dotenv from "dotenv";
+// import connectDB from "./config/db.js";
+// import colors from "colors";
+
+const products = require("./data/products");
+const express = require("express");
+const dotenv = require("dotenv");
+const connectDB = require("./config/db");
 
 dotenv.config();
 

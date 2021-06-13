@@ -60,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "Amazon Echo Dot 3rd Generation",
     image: "/images/alexa.jpg",
     description:
@@ -74,4 +73,5 @@ const products = [
   },
 ];
 
-export default products;
+// export default products;
+module.exports = products;
